@@ -1,11 +1,22 @@
 {
-  "name": "quick-test",
-  "version": "0.0.0",
-  "description": "a simple node app",
+  "name": "demo-nodejs-worldtours",
+  "version": "0.0.1",
+  "description": "Simple nodejs project to show of deployment on Heroku",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "John Stevenson",
-  "license": "ISC"
+    "test": "echo \"Error: no test specified\" && exit 1"},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jr0cket/demo-nodejs-worldtours.git"},
+  "keywords": ["heroku"],
+  "author": "jr0cket",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/jr0cket/demo-nodejs-worldtours/issues"},
+  "homepage": "https://github.com/jr0cket/demo-nodejs-worldtours",
+  "dependencies": {
+    "logfmt": "^1.1.2",
+    "express": "^4.3.0"},
+  "engines": {
+    "node": "0.10.x"}
 }
